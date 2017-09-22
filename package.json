@@ -7,7 +7,6 @@
   "start": "nodemon -e html,js,css ./path/to/your/app.js"
   },
 
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Moyourib/wikistacks.git"
