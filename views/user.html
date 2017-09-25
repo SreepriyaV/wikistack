@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+  <div id="user">
+      {% for user in user %}
+        <div class="user">
+          <img>
+          <div class="user">
+            <p class="by">{{user.name}}</p>
+            <p>{{user.email}}</p>
+          </div>
+        </div>
+      {% endfor %}
+      </div>
+
+{% endblock %}
